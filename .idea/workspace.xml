@@ -17,10 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f721f29-a849-438c-bf85-f57f4b84a56e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/CustomerType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Customer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +158,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ExerciceSymf" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -167,7 +170,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598001132549</updated>
       <workItem from="1598001133735" duration="10239000" />
-      <workItem from="1598432150619" duration="9184000" />
+      <workItem from="1598432150619" duration="10383000" />
+      <workItem from="1598616898273" duration="4071000" />
+      <workItem from="1598621014750" duration="2856000" />
     </task>
     <servers />
   </component>
@@ -211,17 +216,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="76" y="414" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1598432710389" />
-    <state x="1220" y="280" key="FileChooserDialogImpl" timestamp="1598432412367">
+    <state x="1183" y="435" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1598617873415">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1220" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598432412367" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1598001490428">
+    <state x="1183" y="435" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1920.1050@0.0.1920.1050" timestamp="1598617873415" />
+    <state x="1220" y="280" key="FileChooserDialogImpl" timestamp="1598620423298">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598001490428" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1598439968636">
+    <state x="1220" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598620423298" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1598618881819">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1598439968636" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598618881819" />
+    <state x="113" y="74" width="975" height="744" key="dock-window-1" timestamp="1598622530740">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="113" y="74" width="975" height="744" key="dock-window-1/0.0.1920.1050@0.0.1920.1050" timestamp="1598622530740" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1598619646032">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1598619646032" />
   </component>
 </project>

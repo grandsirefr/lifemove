@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <div class="container">
+        <form>
+
+            {{ form_start(form) }}
+            <div class="container">
+            {{ form_row(form.customer_lastname) }}
+            </div>
+            {{ form_row(form.customer_email) }}
+            {{ form_row(form.customer_password) }}
+
+            <button type="submit">Register</button>
+
+            {{ form_end(form) }}
+        </form>
+    </div>
+{% endblock %}

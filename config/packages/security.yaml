@@ -1,5 +1,6 @@
 security:
-
+    encoders:
+        App\Entity\Customer: bcrypt
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:
         app_user_provider:
