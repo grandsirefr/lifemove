@@ -13,7 +13,6 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 /**
  * @method getDoctrine()
- * @method redirectRoute(string $string)
  * @method render(string $string, array $array)
  */
 class RegistrationController extends AbstractController
@@ -39,7 +38,7 @@ class RegistrationController extends AbstractController
             $entityManager->persist($user);
             $entityManager->flush();
 
-            return $this->redirectRoute('home');
+            return $this->redirectToRoute('home');
         }
 
         return $this->render(

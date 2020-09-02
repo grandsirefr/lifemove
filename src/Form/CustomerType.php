@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\Customer;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
@@ -22,7 +23,16 @@ class CustomerType extends AbstractType
                 'type' => PasswordType::class,
                 'first_options' => array('label' => 'Password'),
                 'second_options' => array('label' => 'Confirmer le mot de passe')
-            ));
+            ))
+            ->add('customer_firstname', TextType::class)
+            ->add('customer_birthdate', DateType::class, [
+                    'widget' => 'single_text',
+                'format'=>'yyyy-MM-dd'
+                ])
+            ->
+            add('customer_address', TextType::class)
+            ->add('customer_postal_code', TextType::class)
+            ->add('customer_city', TextType::class);
     }
 
     public function configureOptions(OptionsResolver $resolver)

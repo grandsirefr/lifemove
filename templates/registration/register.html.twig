@@ -1,16 +1,23 @@
 {% extends "base.html.twig" %}
 {% block body %}
     <div class="container">
-        <form>
+        <h1>Inscription</h1>
+        <form action="{{ path('user_registration') }}" method="post">
 
-            {{ form_start(form) }}
-            <div class="container">
+            {{ form_start(form, {'method':'POST'}) }}
+
             {{ form_row(form.customer_lastname) }}
-            </div>
+
             {{ form_row(form.customer_email) }}
             {{ form_row(form.customer_password) }}
 
-            <button type="submit">Register</button>
+            {{ form_row(form.customer_firstname) }}
+            {{ form_row(form.customer_address) }}
+            {{ form_row(form.customer_postal_code) }}
+            {{ form_row(form.customer_city) }}
+            {{ form_row(form.customer_birthdate) }}
+
+            <button class="btn btn-primary" type="submit">Register</button>
 
             {{ form_end(form) }}
         </form>

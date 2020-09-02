@@ -21,7 +21,7 @@ class Customer implements UserInterface
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $customer_name;
+    private $customer_firstname;
 
     /**
      * @var array
@@ -68,14 +68,14 @@ class Customer implements UserInterface
         return $this->id;
     }
 
-    public function getCustomerName(): ?string
+    public function getCustomerFirstName(): ?string
     {
-        return $this->customer_name;
+        return $this->customer_firstname;
     }
 
-    public function setCustomerName(string $customer_name): self
+    public function setCustomerFirstName(string $customer_name): self
     {
-        $this->customer_name = $customer_name;
+        $this->customer_firstname = $customer_name;
 
         return $this;
     }
