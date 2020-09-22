@@ -9,11 +9,38 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:lifemove" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f721f29-a849-438c-bf85-f57f4b84a56e" name="Default Changelist" comment="" />
+    <list default="true" id="9f721f29-a849-438c-bf85-f57f4b84a56e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebf5f924-eff2-496f-a4c4-00415a22853f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebf5f924-eff2-496f-a4c4-00415a22853f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200821094753.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200821094753.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CustomerFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CustomerFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +194,12 @@
       <workItem from="1598621014750" duration="3608000" />
       <workItem from="1599037346363" duration="3809000" />
       <workItem from="1600164566983" duration="5672000" />
-      <workItem from="1600182823597" duration="806000" />
+      <workItem from="1600182823597" duration="2575000" />
+      <workItem from="1600261150065" duration="634000" />
+      <workItem from="1600451306841" duration="4772000" />
+      <workItem from="1600456898548" duration="5589000" />
+      <workItem from="1600711489063" duration="3000" />
+      <workItem from="1600765744196" duration="3000000" />
     </task>
     <servers />
   </component>
@@ -185,7 +217,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lifemove/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -198,14 +230,24 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="770" y="404" key="#Composer" timestamp="1598001516002">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="770" y="404" key="#Composer/0.0.1920.1050@0.0.1920.1050" timestamp="1598001516002" />
-    <state x="667" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598433753926">
+    <state x="675" y="162" key="#Intentions" timestamp="1600454368201">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="675" y="162" key="#Intentions/0.0.1920.1050/-1920.2.1920.1050@0.0.1920.1050" timestamp="1600454368201" />
+    <state x="667" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600458682475">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.2.1920.1050@0.0.1920.1050" timestamp="1600458682475" />
     <state x="667" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598433753926" />
     <state x="76" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1598432710389">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -215,21 +257,24 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1183" y="435" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1920.1050@0.0.1920.1050" timestamp="1598617873415" />
-    <state x="1220" y="280" key="FileChooserDialogImpl" timestamp="1598620423298">
+    <state x="1220" y="280" key="FileChooserDialogImpl" timestamp="1600458664289">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="1220" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.2.1920.1050@0.0.1920.1050" timestamp="1600458664289" />
     <state x="1220" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598620423298" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1600166201453">
+    <state x="461" y="170" key="SettingsEditor" timestamp="1600453469516">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600166201453" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/-1920.2.1920.1050@0.0.1920.1050" timestamp="1600453469516" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600261180727" />
     <state x="113" y="74" width="975" height="744" key="dock-window-1" timestamp="1598622530740">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="113" y="74" width="975" height="744" key="dock-window-1/0.0.1920.1050@0.0.1920.1050" timestamp="1598622530740" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1599038819214">
+    <state x="696" y="670" width="672" height="678" key="search.everywhere.popup" timestamp="1600455069050">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="696" y="670" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.2.1920.1050@0.0.1920.1050" timestamp="1600455069050" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1599038819214" />
   </component>
 </project>

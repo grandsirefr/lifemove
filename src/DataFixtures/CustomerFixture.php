@@ -17,7 +17,7 @@ class CustomerFixture extends Fixture
         for ($i = 0;$i<100;$i++){
             $customer = new Customer();
             $customer
-                ->setCustomerName($faker->firstName())
+                ->setCustomerFirstName($faker->firstName())
                 ->setCustomerAddress($faker->address)
                 ->setCustomerBirthdate($faker->dateTimeThisCentury)
                 ->setCustomerPostalCode($faker->postcode)
