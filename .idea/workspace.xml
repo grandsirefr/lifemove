@@ -29,17 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f721f29-a849-438c-bf85-f57f4b84a56e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ebf5f924-eff2-496f-a4c4-00415a22853f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ebf5f924-eff2-496f-a4c4-00415a22853f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200821094753.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200821094753.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CustomerFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CustomerFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +165,13 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/maevamakeup" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -200,6 +197,8 @@
       <workItem from="1600456898548" duration="5589000" />
       <workItem from="1600711489063" duration="3000" />
       <workItem from="1600765744196" duration="3000000" />
+      <workItem from="1601035533345" duration="1092000" />
+      <workItem from="1601127964714" duration="220000" />
     </task>
     <servers />
   </component>
@@ -257,9 +256,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1183" y="435" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1920.1050@0.0.1920.1050" timestamp="1598617873415" />
-    <state x="1220" y="280" key="FileChooserDialogImpl" timestamp="1600458664289">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1017" y="233" width="424" height="478" key="FileChooserDialogImpl" timestamp="1601128181865">
+      <screen x="0" y="0" width="1600" height="873" />
     </state>
+    <state x="1017" y="233" width="424" height="478" key="FileChooserDialogImpl/0.0.1600.873@0.0.1600.873" timestamp="1601128181865" />
     <state x="1220" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.2.1920.1050@0.0.1920.1050" timestamp="1600458664289" />
     <state x="1220" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598620423298" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1600453469516">
